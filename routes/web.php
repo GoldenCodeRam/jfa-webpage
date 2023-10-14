@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\EnsurePageNotUnderMaintenance;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -13,6 +14,10 @@ use Inertia\Inertia;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/maintenance', function () {
+    return view('UnderMaintenance');
+});
 
 Route::get('/', function () {
     return Inertia::render('Welcome');

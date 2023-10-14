@@ -43,6 +43,7 @@
     }
 </script>
 
+thisateou asoetuh astneouhsaneouh santheou stnaeo hustaeo utah outhaoetsu atsoj
 <button
     on:mouseover={showTooltip}
     on:mousemove={hasTooltip}
@@ -53,11 +54,12 @@
 >
     My very big button
 </button>
+aeosuaetatnoehuntaoheusthaoeuhaoeut tan stao tuoat ostuh aoeshtuahtsoesthaueo
 <div
     bind:this={tooltip}
     id="tooltip"
     role="tooltip"
-    class="bg-gray-700 text-white p-1 rounded-sm w-max absolute top-0 left-0 hidden pointer-events-none"
+    class="bg-gray-700 text-white px-3 py-1 shadow-md rounded-md w-max absolute top-0 left-0 hidden pointer-events-none"
 >
-    My Tooltip is very big and has a lot of conten
+    My Tooltip is very big and has a lot of content
 </div>
