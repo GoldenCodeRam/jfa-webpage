@@ -1,6 +1,6 @@
 <script>
-    import Navbar from "../Components/Navbar.svelte";
     import { computePosition, flip, shift, offset } from "@floating-ui/dom";
+    import MainLayout from "../Layouts/MainLayout.svelte";
 
     let tooltip;
 
@@ -44,30 +44,23 @@
     }
 </script>
 
-thisateou asoetuh astneouhsaneouh santheou stnaeo hustaeo utah outhaoetsu atsoj
-<Navbar />
-
-<div class="container mx-auto">
-
-    aoeu
-
-<button
-    on:mouseover={showTooltip}
-    on:mousemove={hasTooltip}
-    on:mouseleave={hideTooltip}
-    on:focusout={hideTooltip}
-    id="button"
-    aria-describedby="tooltip"
->
-    My very big button
-</button>
-aeosuaetatnoehuntaoheusthaoeuhaoeut tan stao tuoat ostuh aoeshtuahtsoesthaueo
-<div
-    bind:this={tooltip}
-    id="tooltip"
-    role="tooltip"
-    class="ring-2 ring-offset-2 bg-gray-700 text-white p-1 rounded-sm w-max absolute top-0 left-0 hidden pointer-events-none"
->
-    My Tooltip is very big and has a lot of content
-</div>
-</div>
+<MainLayout>
+    <button
+        on:mouseover={showTooltip}
+        on:mousemove={hasTooltip}
+        on:mouseleave={hideTooltip}
+        on:focusout={hideTooltip}
+        id="button"
+        aria-describedby="tooltip"
+    >
+        My very big button
+    </button>
+    <div
+        bind:this={tooltip}
+        id="tooltip"
+        role="tooltip"
+        class="ring-2 ring-offset-2 bg-gray-700 text-white p-1 rounded-sm w-max absolute top-0 left-0 hidden pointer-events-none"
+    >
+        My Tooltip is very big and has a lot of content
+    </div>
+</MainLayout>

@@ -22,3 +22,7 @@ Route::get('/maintenance', function () {
 Route::get('/', function () {
     return Inertia::render('Welcome');
 });
+
+Route::get('/administrative', function () {
+    return Inertia::render('Administrative/Home');
+});
