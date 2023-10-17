@@ -31,8 +31,8 @@
                             <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
                                 <img class="h-10 w-auto" src="/img/logo.svg" alt="Logo JFA Consultorías" />
                                 <div class="flex-auto">
-                                    <a href="#" class="block font-semibold text-gray-900">
-                                        JFA Consultorías
+                                    <a href="/administrative" class="block font-semibold text-gray-900">
+                                        JFA Administrativo
                                         <span class="absolute inset-0"></span>
                                     </a>
                                     <p class="mt-1 text-gray-600">Consultorías para todos xd</p>
