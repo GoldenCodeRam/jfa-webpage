@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\EnsurePageNotUnderMaintenance;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -14,6 +15,14 @@ use Inertia\Inertia;
 |
 */
 
+Route::get('/maintenance', function () {
+    return view('UnderMaintenance');
+});
+
 Route::get('/', function () {
     return Inertia::render('Welcome');
+});
+
+Route::get('/administrative', function () {
+    return Inertia::render('Administrative/Home');
 });
