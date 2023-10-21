@@ -59,9 +59,9 @@
                                 </span>
                                 <span slot="content">
                                     <div class="mt-2 space-y-2" id="disclosure-1">
-                                        <a href="#" class="flex gap-3 rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                        <a href="/administrative" class="flex gap-3 rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                                             <img class="w-12 h-auto" src="/img/logo.svg" />
-                                            JFA Consultorías
+                                            JFA Administrativo
                                         </a>
                                         <a href="#" class="flex gap-3 rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                                             <img class="w-12 h-auto" src="/img/logo_ambiental.svg" />
