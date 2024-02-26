@@ -2,11 +2,14 @@
 @import "node_modules/@fortawesome/fontawesome-free/css/brands.css";
 @import "node_modules/@fortawesome/fontawesome-free/css/solid.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html, body, #app {
+    font-family: "Work Sans", sans-serif;
     height: 100%;
     width: 100%;
 }

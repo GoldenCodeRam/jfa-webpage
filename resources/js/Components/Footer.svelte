@@ -1,4 +1,4 @@
-<footer class="py-8 px-6 bg-blue-950 shadow-md text-white">
+<footer class="py-8 px-6 bg-jfa-primary-blue shadow-md text-white">
     <div class="mx-auto container">
         <div class="grid grid-cols-1 sm:grid-cols-2 pb-6">
             <div>

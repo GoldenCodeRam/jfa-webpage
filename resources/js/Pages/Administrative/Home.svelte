@@ -4,22 +4,16 @@
 </script>
 
 <MainLayout>
-    <div class="container mx-auto grid grid-cols-5 px-6 py-16 items-center">
-        <div class="col-span-2">
-            <img
-                src="/img/assets/1.svg"
-                class="ms-auto w-56 h-auto"
-                alt="Asset"
-            />
-        </div>
-        <div class="ms-sm-12 ms-8 col-span-3 flex flex-col justify-center">
-            <h1 class="text-3xl md:text-4xl text-sky-950 font-bold max-w-sm">
+    <div class="py-32 px-12 flex justify-center items-center">
+        <img src="/img/assets/1.svg" class="w-56 h-auto me-8 hidden md:block" alt="Asset" />
+        <div>
+            <h1 class="text-6xl text-sky-950 font-bold max-w-sm">
                 Asesorías en el Sector Privado
             </h1>
-            <p>El mejor servicio de asesorías del mundo mundial.</p>
+            <p class="text-xl font-semibold">Tu guía para una gestión eficiente</p>
         </div>
     </div>
-    <div class="bg-gray-100 py-16 px-6">
+    <div class="bg-jfa-primary-gray py-16 px-6">
         <div class="container mx-auto">
             <h1 class="text-center text-3xl text-sky-950 font-bold">
                 Nuestro proceso probado produce <u>resultados</u>
@@ -85,13 +79,12 @@
             Nuestros Clientes
         </h1>
         <div class="mx-auto max-w-3xl pt-6">
-            <Carousel
-                autoplay
-                autoplayDuration={3000}
-                particlesToShow={2}
-            >
+            <Carousel autoplay autoplayDuration={3000} particlesToShow={2}>
                 <div class="flex items-center justify-center">
-                    <img class="mx-auto" src="/img/clients/cootransariari.png" />
+                    <img
+                        class="mx-auto"
+                        src="/img/clients/cootransariari.png"
+                    />
                 </div>
                 <div class="flex items-center justify-center">
                     <img class="mx-auto" src="/img/clients/asopreguejar.jpg" />
@@ -103,7 +96,10 @@
                     <img class="mx-auto" src="/img/clients/cootranscol.png" />
                 </div>
                 <div class="flex items-center justify-center">
-                    <img class="mx-auto" src="/img/clients/coopetransfluvial.png" />
+                    <img
+                        class="mx-auto"
+                        src="/img/clients/coopetransfluvial.png"
+                    />
                 </div>
                 <div class="flex items-center justify-center">
                     <img class="mx-auto" src="/img/clients/coimpresores.jpg" />
@@ -121,13 +117,19 @@
                     <img class="mx-auto" src="/img/clients/cooprometa.png" />
                 </div>
                 <div class="flex items-center justify-center">
-                    <img class="mx-auto" src="/img/clients/cootrapensimeta.jpg" />
+                    <img
+                        class="mx-auto"
+                        src="/img/clients/cootrapensimeta.jpg"
+                    />
                 </div>
                 <div class="flex items-center justify-center">
                     <img class="mx-auto" src="/img/clients/coopteboy.png" />
                 </div>
                 <div class="flex items-center justify-center">
-                    <img class="mx-auto" src="/img/clients/cardenas-vision.webp" />
+                    <img
+                        class="mx-auto"
+                        src="/img/clients/cardenas-vision.webp"
+                    />
                 </div>
                 <div class="flex items-center justify-center">
                     <img class="mx-auto" src="/img/clients/hornasa.png" />

@@ -26,3 +26,7 @@ Route::get('/', function () {
 Route::get('/administrative', function () {
     return Inertia::render('Administrative/Home');
 });
+
+Route::get('/about-us', function() {
+    return Inertia::render('AboutUs');
+});
