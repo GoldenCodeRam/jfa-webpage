@@ -11,20 +11,20 @@
         <div class="flex lg:flex-1">
             <a href="/" class="-m-1.5 p-1.5">
                 <span class="sr-only">JFA Consultorias SAS</span>
-                <img class="h-20 w-auto" src="/img/logo.svg" alt="" />
+                <img class="h-16 sm:h-20 w-auto" src="/img/logo.svg" alt="" />
             </a>
         </div>
         <div class="flex lg:hidden">
             <Sidebar />
         </div>
         <div class="hidden justify-center items-center lg:flex lg:gap-x-12">
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
+            <a href="/about-us" class="text-sm font-semibold leading-6 text-gray-900 hover:text-jfa-primary-blue">
                 ¿Quiénes somos?
             </a>
             <OurTeamDropdown />
             <a
                 href="/contact-us"
-                class="text-sm font-semibold leading-6 text-gray-900"
+                class="text-sm font-semibold leading-6 text-gray-900 hover:text-jfa-primary-blue"
             >
                 Contáctanos
             </a>

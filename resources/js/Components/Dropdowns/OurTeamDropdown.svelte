@@ -12,7 +12,7 @@
 
 <button use:melt={$trigger}>
     <span
-        class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900"
+        class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 hover:text-jfa-primary-blue"
     >
         Nuestro equipo
         <svg
@@ -53,64 +53,71 @@
                     JFA Administrativo
                     <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-gray-600">Tu guía para una gestión eficiente</p>
+                <p class="mt-1 text-gray-600">
+                    Tu guía para una gestión eficiente
+                </p>
             </div>
         </div>
         <div
+            use:melt={$separator}
+            class="m-1 text-center text-neutral-400 text-sm flex items-center before:h-[1px] before:mx-2 before:flex-1 before:bg-neutral-300 after:flex-1 after:h-[1px] after:mx-2 after:bg-neutral-300"
+        >
+            Próximamente
+        </div>
+        <div
             use:melt={$item}
-            class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+            data-disabled
+            class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50 data-[disabled]:text-neutral-300"
         >
             <img
-                class="h-10 w-auto"
+                class="h-10 opacity-35 w-auto"
                 src="/img/logo_ambiental.svg"
                 alt="Logo JFA Ambiental"
             />
             <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
+                <a href="#" class="block font-semibold">
                     JFA Ambiental
                     <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-gray-600">
+                <p class="mt-1">
                     Protegiendo el planeta, impulsando tu negocio
                 </p>
             </div>
         </div>
         <div
             use:melt={$item}
-            class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+            data-disabled
+            class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50 data-[disabled]:text-neutral-300"
         >
             <img
-                class="h-10 w-auto"
+                class="h-10 w-auto opacity-35"
                 src="/img/logo_sys.svg"
                 alt="Logo JFA Seguridad y Salud"
             />
             <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
+                <a href="#" class="block font-semibold">
                     JFA Seguridad y Salud
                     <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-gray-600">
-                    Prevención y bienestar para tu empresa
-                </p>
+                <p class="mt-1">Prevención y bienestar para tu empresa</p>
             </div>
         </div>
         <div
             use:melt={$item}
-            class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+            data-disabled
+            class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50 data-[disabled]:text-neutral-300"
         >
             <img
-                class="h-10 w-auto"
+                class="h-10 w-auto opacity-35"
                 src="/img/logo_legal.svg"
                 alt="Logo JFA Legal"
             />
             <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
+                <a href="#" class="block font-semibold">
                     JFA Legal
                     <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-gray-600">
-                    Te asesoramos, te protegemos, te guiamos
-                </p>
+                <p class="mt-1">Te asesoramos, te protegemos, te guiamos</p>
             </div>
         </div>
     </div>
